@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="265dp"
+        android:layout_marginTop="335dp"
         android:fontFamily="sans-serif-black"
         android:letterSpacing="0.1"
         android:text="deeps"
@@ -23,8 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="335dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="402dp"
         android:fontFamily="sans-serif"
         android:letterSpacing="0.2"
         android:text="B E E R C A F E"
@@ -37,29 +37,29 @@
         android:layout_height="120dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="160dp"
-        app:srcCompat="@drawable/beef"
-        android:contentDescription="TODO" />
+        android:layout_marginTop="220dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/beef" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="213dp"
-        android:layout_height="209dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="-76dp"
-        android:layout_marginEnd="-103dp"
+        android:layout_marginTop="-115dp"
+        android:layout_marginEnd="-135dp"
         app:cardBackgroundColor="#FDBF09"
-        app:cardCornerRadius="500dp" />
+        app:cardCornerRadius="300dp" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
 
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-195dp"
-        android:layout_marginBottom="-161dp"
+        android:layout_marginStart="-354dp"
+        android:layout_marginBottom="-211dp"
         app:cardBackgroundColor="#FDBF09"
-        app:cardCornerRadius="500dp" />
+        app:cardCornerRadius="600dp" />
 
 </RelativeLayout>
